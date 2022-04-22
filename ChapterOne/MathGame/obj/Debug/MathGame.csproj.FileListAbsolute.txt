@@ -1,0 +1,16 @@
+C:\Users\kriso\source\repos\HeadFirstC-\ChapterOne\MathGame\bin\Debug\MathGame.exe.config
+C:\Users\kriso\source\repos\HeadFirstC-\ChapterOne\MathGame\bin\Debug\MathGame.exe
+C:\Users\kriso\source\repos\HeadFirstC-\ChapterOne\MathGame\bin\Debug\MathGame.pdb
+C:\Users\kriso\source\repos\HeadFirstC-\ChapterOne\MathGame\obj\Debug\MathGame.csproj.AssemblyReference.cache
+C:\Users\kriso\source\repos\HeadFirstC-\ChapterOne\MathGame\obj\Debug\MathGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\kriso\source\repos\HeadFirstC-\ChapterOne\MathGame\obj\Debug\MainWindow.g.cs
+C:\Users\kriso\source\repos\HeadFirstC-\ChapterOne\MathGame\obj\Debug\App.g.cs
+C:\Users\kriso\source\repos\HeadFirstC-\ChapterOne\MathGame\obj\Debug\MathGame_MarkupCompile.cache
+C:\Users\kriso\source\repos\HeadFirstC-\ChapterOne\MathGame\obj\Debug\MathGame_MarkupCompile.lref
+C:\Users\kriso\source\repos\HeadFirstC-\ChapterOne\MathGame\obj\Debug\MainWindow.baml
+C:\Users\kriso\source\repos\HeadFirstC-\ChapterOne\MathGame\obj\Debug\MathGame.g.resources
+C:\Users\kriso\source\repos\HeadFirstC-\ChapterOne\MathGame\obj\Debug\MathGame.Properties.Resources.resources
+C:\Users\kriso\source\repos\HeadFirstC-\ChapterOne\MathGame\obj\Debug\MathGame.csproj.GenerateResource.cache
+C:\Users\kriso\source\repos\HeadFirstC-\ChapterOne\MathGame\obj\Debug\MathGame.csproj.CoreCompileInputs.cache
+C:\Users\kriso\source\repos\HeadFirstC-\ChapterOne\MathGame\obj\Debug\MathGame.exe
+C:\Users\kriso\source\repos\HeadFirstC-\ChapterOne\MathGame\obj\Debug\MathGame.pdb

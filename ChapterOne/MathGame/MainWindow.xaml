@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:MathGame"
         mc:Ignorable="d"
         Title="Find All the Matching Animals" Height="450" Width="400">
-    <Grid>
+    <Grid x:Name="mainGrid">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>

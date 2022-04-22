@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 
 namespace MathGame
 {
@@ -40,5 +41,36 @@ namespace MathGame
             }
 
         }
+
+        TextBlock _lastTextBlockClicked;
+        bool _findingMatch = false;
+
+        private void TextBlockMouseDown(object sender, MouseButtonEventArgs e)
+        {
+            TextBlock textBlock = sender as TextBlock;
+
+            if (_findingMatch == false)
+            {
+                if (textBlock != null)
+                {
+                    textBlock.Visibility = Visibility.Hidden;
+                    _lastTextBlockClicked = textBlock;
+                }
+
+                _findingMatch = true;
+
+            }
+            else if (textBlock != null && textBlock.Text == _lastTextBlockClicked.Text)
+            {
+                textBlock.Visibility = Visibility.Hidden;
+                _findingMatch = false;
+            }
+            else
+            {
+                _lastTextBlockClicked.Visibility = Visibility.Visible;
+                _findingMatch = false;
+            }
+        }
+
     }
 }

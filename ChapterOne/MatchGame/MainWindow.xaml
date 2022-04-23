@@ -57,7 +57,9 @@
                    TextWrapping="NoWrap" Text="?" VerticalAlignment="Center" Grid.Row="3" FontSize="36" MouseDown="TextBlockMouseDown"/>
 
         <TextBlock x:Name="TimeTextBLock" HorizontalAlignment="Center" Text="ElapseTime" VerticalAlignment="Center" 
-                   FontSize="36" MouseDown="Time_TextBlockMouseDown" 
-                   Grid.Row="4" Grid.ColumnSpan="4" Grid.Column="0" />
+                   FontSize="24" MouseDown="Time_TextBlockMouseDown" 
+                   Grid.Row="4" Grid.ColumnSpan="2" Grid.Column="1" FontWeight="Bold" />
+        <TextBlock x:Name="TextHighScore" HorizontalAlignment="Center" 
+                 Grid.Row="4" Grid.Column="0" TextWrapping="Wrap" Text="Score :" VerticalAlignment="Center" Width="68" FontSize="20" FontWeight="Bold"  MouseDown="Time_TextBlockMouseDown"/>
     </Grid>
 </Window>

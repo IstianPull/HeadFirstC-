@@ -17,7 +17,8 @@ namespace MathGame
         readonly DispatcherTimer _timer = new DispatcherTimer();
         int _tenthsOfSecondElapse;
         int _matchFound;
-        private readonly string _textBlockName = "TimeTextBLock";
+
+
 
         public MainWindow()
         {
@@ -26,7 +27,6 @@ namespace MathGame
             _timer.Tick += Timer_Tick;
             SetUpGame();
         }
-
         private void Timer_Tick(object sender, EventArgs e)
         {
             _tenthsOfSecondElapse++;
@@ -34,7 +34,8 @@ namespace MathGame
             if (_matchFound == 8)
             {
                 _timer.Stop();
-                TimeTextBLock.Text += " - Play again ? ";
+                TimeTextBLock.Text = " - Play again ? ";
+                TextHighScore.Text = (_tenthsOfSecondElapse / 10f).ToString("0.0s");
             }
         }
         private void SetUpGame()
@@ -53,7 +54,7 @@ namespace MathGame
             };
             foreach (TextBlock textBlock in MainGrid.Children.OfType<TextBlock>())
             {
-                if (textBlock.Name != _textBlockName)
+                if (textBlock.Name != TimeTextBLock.Name && textBlock.Name != TextHighScore.Name)
                 {
                     textBlock.Visibility = Visibility.Visible;
                     int index = random.Next(animalEmoji.Count);
